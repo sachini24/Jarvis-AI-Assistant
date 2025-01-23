@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.176136, y1:0.585227, x2:0.914773, y2:0.477273, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 101, 255));
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Pictures/project 1/png/logo-no-background.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>330</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{
+background-color: rgb(231, 231, 231);
+font: 11pt &quot;Segoe UI&quot;;
+font: 700 12pt &quot;Calibri&quot;;
+color: rgb(0, 0, 0);
+border-radius: 2px;
+}
+
+QPushButton#pushButton:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-position: calc(100% - 10px)center;
+}</string>
+    </property>
+    <property name="text">
+     <string>L O G  I N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>470</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_3{
+background-color: transparent;
+font: 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top : 1px solid white;
+border-bottom : 1px solid white;
+}
+
+QPushButton#pushButton_3:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-position: calc(100% - 10px)center;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>470</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_4{
+background-color: transparent;
+font: 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top : 1px solid white;
+border-bottom : 1px solid white;
+}
+
+QPushButton#pushButton_4:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-position: calc(100% - 10px)center;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_5{
+background-color: transparent;
+font: 10pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top : 1px solid white;
+border-bottom : 1px solid white;
+}
+
+QPushButton#pushButton_5:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-position: calc(100% - 10px)center;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Retry</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>230</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;
+background-color: qlineargradient(spread:pad, x1:0.147727, y1:0.829545, x2:0.9375, y2:0.563, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 81, 255));
+border-radius : 1px;
+border-bottom : 1px solid rgb(139, 139, 139);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;
+background-color: qlineargradient(spread:pad, x1:0.147727, y1:0.829545, x2:0.9375, y2:0.563, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 81, 255));
+border-radius : 1px;
+border-bottom : 1px solid rgb(139, 139, 139);</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>User Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>441</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/Untitled_Project_V4.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

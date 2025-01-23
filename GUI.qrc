@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Pictures/project 1/exit.png</file>
+        <file>../../Pictures/project 1/login.png</file>
+        <file>../../Pictures/project 1/logo.png</file>
+        <file>../../Pictures/project 1/logo-black.png</file>
+        <file>../../Pictures/project 1/logo-color.png</file>
+        <file>../../Pictures/project 1/logo-no-background.png</file>
+        <file>../../Pictures/project 1/logo-white.png</file>
+        <file>../../Pictures/project 1/start.png</file>
+        <file>../../Pictures/project 1/png/logo-black.png</file>
+        <file>../../Pictures/project 1/png/logo-color.png</file>
+        <file>../../Pictures/project 1/png/logo-no-background.png</file>
+        <file>../../Pictures/project 1/png/logo-white.png</file>
+        <file>../../Downloads/1665543413870.gif</file>
+        <file>../../Downloads/ai-1.gif</file>
+        <file>../../Downloads/deepLearning.gif</file>
+        <file>../../Downloads/Left-Right-Brain-Signals.gif</file>
+        <file>../../Downloads/images (1).png</file>
+        <file>../../Downloads/images.png</file>
+    </qresource>
+</RCC>
